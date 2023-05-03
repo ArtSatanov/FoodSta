@@ -1,0 +1,133 @@
+:root {
+  --main-text-color: #2c2c2c;
+  --accent-color: #bbf330;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img{
+   display: block;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+  outline: 1px solid green;
+}
+
+.current {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.btn {
+   min-width: 98px;
+   min-height: 32px;
+  border-radius: 30px;
+  border-color: transparent;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  color: var(--main-text-color);
+  background-color: var(--accent-color);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+
+header > .container {
+  display: flex;
+  align-items: center;
+background: #FEFEFE;
+box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
+
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HEADER */
+
+.header {
+
+}
+
+.header-logo {
+  margin-right: auto;
+}
+
+.header-logo-img {
+}
+
+.header-nav {
+}
+
+.nav-list {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-item {
+}
+
+.nav-link {
+  font-size: 14px;
+  line-height: 1.142;
+  color: inherit;
+}
+
+.nav-btn {
+  margin-left: 30px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> HERO */
+
+.hero {}
+
+.hero .container {
+   display: flex;
+   align-items: center;
+}
+
+.hero-right {
+   max-width: 511px;
+   margin-right: auto;
+}
+
+.hero-title {
+   margin-bottom: 28px;
+   font-weight: 700;
+      font-size: 48px;
+      line-height: 120%;
+}
+
+.hero-text {
+   margin-bottom: 40px;
+}
+
+.btn {}
+
+.hero-slider {}
+
+.hero-img {}
