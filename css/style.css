@@ -69,6 +69,7 @@ header > .container {
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HEADER */
 
 .header {
+  
 }
 
 .header-logo {
@@ -79,12 +80,13 @@ header > .container {
 }
 
 .header-nav {
-  padding: 20px 0;
 }
 
 .nav-list {
   display: flex;
   gap: 28px;
+  min-height: 72px;
+  align-items: center;
 }
 
 .nav-item {
