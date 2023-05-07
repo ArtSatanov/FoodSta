@@ -132,6 +132,25 @@ header > .container {
 }
 
 .hero-slider {
+
+
+  border: 1px solid yellow;
+  
+
+}
+
+.hero-slider > div {
+  max-width: 528px;
+  max-width: 528px;
+}
+
+.slick-prev {
+  border: 1px solid tomato;
+}
+
+.slick-arrow {
+  border: 1px solid tomato;
+
 }
 
 .hero-img {
