@@ -69,7 +69,6 @@ header > .container {
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HEADER */
 
 .header {
-  
 }
 
 .header-logo {
@@ -132,26 +131,59 @@ header > .container {
 }
 
 .hero-slider {
-
-
-  border: 1px solid yellow;
-  
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 14px 14px 0 0;
+  max-width: 580px;
+  max-width: 580px;
+  border: 26px solid #ffe550;
+  border-radius: 50%;
 }
 
 .hero-slider > div {
   max-width: 528px;
   max-width: 528px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .slick-prev {
-  border: 1px solid tomato;
+  left: -38px;
+  width: 48px;
+  height: 40px;
+  background: #fefefe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  z-index: 100;
 }
 
-.slick-arrow {
-  border: 1px solid tomato;
-
+.slick-next {
+  right: -38px;
+  width: 48px;
+  height: 40px;
+  background: #fefefe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  z-index: 100;
 }
+
+.slick-next:before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/symbol-defs.svg#arrow-right);
+  background-size: contain;
+  fill: #2c2c2c;
+}
+
+/* .slick-prev:hover,
+.slick-prev:focus,
+.slick-arrow:hover,
+.slick-arrow:focus {
+  color:#2c2c2c;
+} */
 
 .hero-img {
 }
