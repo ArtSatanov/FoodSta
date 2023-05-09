@@ -187,3 +187,41 @@ header > .container {
 
 .hero-img {
 }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> OFFER */
+
+.offer {
+  
+}
+.offer > div {
+  display: flex;
+  background-image: url(../images/offerings/bg.png);
+}
+
+
+
+.offer-left-side {}
+
+.offer-img {}
+
+.offer-right-side {}
+
+.offer-title {}
+
+.offering-text {}
+
+.offer-list {
+  display: flex;
+}
+
+.list {}
+
+.offer-item {}
+
+.list-subtitle {}
+
+.offer-desc {}
+
+.offer-btn {}
+
+.btn {}
