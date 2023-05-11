@@ -66,6 +66,10 @@ header > .container {
   box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
 }
 
+.title {
+  
+}
+
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HEADER */
 
 .header {
@@ -195,18 +199,27 @@ header > .container {
 }
 .offer > div {
   display: flex;
+  gap: 50px;
   background-image: url(../images/offerings/bg.png);
+  min-height: 828px;
+
 }
 
 
+.offer-img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 190px 0 30px 40px;
+}
 
-.offer-left-side {}
+.offer-right-side {
+  margin: 255px 35px 0 0;
+}
 
-.offer-img {}
-
-.offer-right-side {}
-
-.offer-title {}
+.offer-title {
+  font-weight: 700;
+    font-size: 42px;
+    line-height: 120%;
+}
 
 .offering-text {}
 
