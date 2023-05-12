@@ -110,11 +110,13 @@ header > .container {
 }
 
 .hero .container {
+  position: relative;
   display: flex;
   align-items: center;
 }
 
 .hero-right {
+  margin-top: 159px;
   max-width: 511px;
   margin-right: auto;
 }
@@ -134,10 +136,14 @@ header > .container {
 }
 
 .hero-slider {
+  position: absolute;
+  left: 670px;
+  top: 14px;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 14px 14px 0 0;
+  
   max-width: 580px;
   max-width: 580px;
   border: 26px solid #ffe550;
@@ -215,6 +221,7 @@ header > .container {
   font-weight: 700;
   font-size: 42px;
   line-height: 120%;
+  margin-bottom: 25px;
 }
 
 .offering-text {
@@ -228,6 +235,16 @@ header > .container {
 }
 
 .offer-item {
+}
+
+.offer-svg-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #fefefe;
+  border-radius: 50%;
 }
 
 .list-subtitle {
