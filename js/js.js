@@ -214,3 +214,25 @@
 
 //   // Change code above this line
 // }
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+// // console.table{ products };
+// function getAllPropValues(propName) {
+//    // Change code below this line
+//    const arrayResult = [];
+
+//    for (i = 0; i < products.length; i += 1) {
+//       if (Object.keys(products[i]).includes(propName) === true) {
+//          arrayResult.push(Object.values(products[i])[Object.keys(products[i]).indexOf(propName)]);
+//          console.log(Object.values(products[i])[Object.keys(products[i]).indexOf(propName)]); 
+//       }   
+
+//       // Change code above this line
+//    }
+//    return arrayResult;
+// }
