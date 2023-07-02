@@ -90,24 +90,127 @@
 //     // Change code above this line
 //   }
 
-function includes(array, value) {
-   // Change code below this line
-   for (i = 0; i < array.length; i += 1) {
-      if (array[i] === value) {
-         return true;
-      }
-      // Change code above this line
-   }
-   return false;
-}
+// function includes(array, value) {
+//    // Change code below this line
+//    for (i = 0; i < array.length; i += 1) {
+//       if (array[i] === value) {
+//          return true;
+//       }
+//       // Change code above this line
+//    }
+//    return false;
+// }
 
-function includes(array, value) {
-   // Change code below this line
-   for (let number of array) {
-      if (number === value) {
-         return true;
-      }
-      // Change code above this line
-   }
-   return false;
-}
+// function includes(array, value) {
+//    // Change code below this line
+//    for (let number of array) {
+//       if (number === value) {
+//          return true;
+//       }
+//       // Change code above this line
+//    }
+//    return false;
+// }
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+
+// // Change code below this line
+// const ownerName = apartment.owner.name;
+// const ownerPhone = apartment.owner.phone;
+// const ownerEmail = apartment.owner.email;
+// const numberOfTags = apartment.tags.length;
+// const firstTag = apartment.tags[0];
+// const lastTag = apartment.tags[tags.length - 1];
+// // Change code above this line
+
+
+// consolelog(lastTag);
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const keys = [];
+// const values = [];
+// // Change code below this line
+
+// for (const key in apartment) {
+//   keys.push(key);
+// }
+
+// console.log(keys);
+
+// for (const value in apartment) {
+//   values.push(apartment[value]);
+// }
+
+// console.log(values);
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const values = [];
+// // Change code below this line
+// const keys = Object.keys(apartment);
+// console.log(keys);
+
+// for (let key of keys) {
+//   values.push(apartment[keys[0]]);
+// }
+
+// console.log(values);
+
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// // Change code below this line
+// for (let color of colors) {
+//   hexColors.push(colors.hex);
+//   rgbColors.push(colors.rgb);
+// }
+// console.log(hexColors);
+// console.log(rgbColors);
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getProductPrice(productName) {
+//   // Change code below this line
+//    let indexId = 0;
+//    for (i = 0; i < products.length; i += 1) {
+//       if (Object.values(products[i]).includes(productName) === true) {
+//          indexId = i;
+//          console.log(indexId);
+//          return products[indexId].price;
+//       }
+
+//       return null;
+//    }
+
+
+//   // Change code above this line
+// }
