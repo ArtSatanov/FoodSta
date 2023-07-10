@@ -255,46 +255,46 @@
 //    return totalCost;
 //   // Change code above this line
 // }
-const atTheOldToad = {
-   potions: [
-      { name: "Speed potion", price: 460 },
-      { name: "Dragon breath", price: 780 },
-      { name: "Stone skin", price: 520 },
-   ],
-   // Change code below this line
-   getPotions() {
-      return this.potions;
-   },
-   addPotion(newPotion) {
-      for (let i = 0; i < this.potions.length; i += 1) {
-         if (this.potions[i].name === newPotion.name) {
-            return `Error! Potion ${newPotion.name} is already in your inventory!`;
-         }
-      }
-      this.potions.push(newPotion);
-      console.log(this.potions);
-   },
-   removePotion(potionName) {
-      for (let i = 0; i < this.potions.length; i += 1) {
-         if (this.potions[i].name === potionName) {
-            console.log(i);
-           return this.potions.splice(i, 1);
+// const atTheOldToad = {
+//    potions: [
+//       { name: "Speed potion", price: 460 },
+//       { name: "Dragon breath", price: 780 },
+//       { name: "Stone skin", price: 520 },
+//    ],
+//    // Change code below this line
+//    getPotions() {
+//       return this.potions;
+//    },
+//    addPotion(newPotion) {
+//       for (let i = 0; i < this.potions.length; i += 1) {
+//          if (this.potions[i].name === newPotion.name) {
+//             return `Error! Potion ${newPotion.name} is already in your inventory!`;
+//          }
+//       }
+//       this.potions.push(newPotion);
+//       console.log(this.potions);
+//    },
+//    removePotion(potionName) {
+//       for (let i = 0; i < this.potions.length; i += 1) {
+//          if (this.potions[i].name === potionName) {
+//             console.log(i);
+//            return this.potions.splice(i, 1);
             
-         }
-      }
-      return `Potion ${potionName} is not in inventory!`;
-      },
-   updatePotionName(oldName, newName) {
-      for (let i = 0; i < this.potions.length; i += 1) {
-         if (this.potions[i].name === oldName) {
-             this.potions[i].name = newName;
-            return this.potions;
-         }
-      }
-      return `Potion ${oldName} is not in inventory!`;
-   },
-  // Change code above this line
-};
+//          }
+//       }
+//       return `Potion ${potionName} is not in inventory!`;
+//       },
+//    updatePotionName(oldName, newName) {
+//       for (let i = 0; i < this.potions.length; i += 1) {
+//          if (this.potions[i].name === oldName) {
+//              this.potions[i].name = newName;
+//             return this.potions;
+//          }
+//       }
+//       return `Potion ${oldName} is not in inventory!`;
+//    },
+//   // Change code above this line
+// };
 
 // const atTheOldToad = {
 //   potions: [
@@ -333,3 +333,54 @@ const atTheOldToad = {
 //   },
 //   // Change code above this line
 // };
+
+// const pizzaPalace = {
+//   pizzas: ["Ultracheese", "Smoked", "Four meats"],
+//   order(pizzaName,onSuccess,onError) {
+//     if (this.pizzas.includes(pizzaName)) {
+//       return onSuccess(pizzaName);
+//     } else {
+//        const errorMsg = `There is no pizza with a name ${pizzaName} in the assortment.`;
+//        return onError(errorMsg);
+//     }
+//   },
+// };
+// // Change code above this line
+
+// // Callback for onSuccess
+// function makePizza(pizzaName) {
+//   return `Your order is accepted. Cooking pizza ${pizzaName}.`;
+// }
+
+// // Callback for onError
+// function onOrderError(error) {
+//   return `Error! ${error}`;
+// }
+
+// // Method calls with callbacks
+// pizzaPalace.order("Smoked", makePizza, onOrderError);
+// pizzaPalace.order("Four meats", makePizza, onOrderError);
+// pizzaPalace.order("Big Mike", makePizza, onOrderError);
+// pizzaPalace.order("Vienna", makePizza, onOrderError);
+
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
+//   // Change code below this line
+
+//   numbers.forEach(function (number,index) {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+      
+//     }
+//   })
+  
+
+//   // for (let i = 0; i < numbers.length; i += 1) {
+//   //   if (numbers[i] > value) {
+//   //     filteredNumbers.push(numbers[i]);
+//   //   }
+//   // }
+
+//   // Change code above this line
+//   return filteredNumbers;
+// }
