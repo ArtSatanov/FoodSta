@@ -384,3 +384,165 @@
 //   // Change code above this line
 //   return filteredNumbers;
 // }
+
+
+// // Change code below this line
+// function calculateTotalPrice(orderedItems) {
+//   let totalPrice = 0;
+
+// orderedItems.forEach( (item) => { totalPrice += item;});
+  
+// return totalPrice;
+// }
+// // Change code above this line
+
+// Change code below this line
+// const  calculateTotalPrice = (orderedItems) => {
+//   let totalPrice = 0;
+
+// orderedItems.forEach( (item) => { totalPrice += item;});
+
+//   return totalPrice;
+// }
+// // Change code above this line
+
+// const getCommonElements = (firstArray, secondArray) => {
+//   const commonElements = [];
+//    firstArray.forEach((element) => { if (secondArray.includes(element)) { commonElements.push(element) } });
+
+//   // Change code above this line
+//   return commonElements;
+// }
+
+// function changeEven(numbers, value) {
+//   // Change code below this line
+//    const newArray = [];
+
+//    numbers.forEach(function (number) {
+//       if (number % 2 === 0) {
+//          number = number + value;
+//       }
+//       newArray.push(number);
+//    })
+//    return newArray;
+
+
+// }
+// const planets = ["Earth", "Mars", "Venus", "Jupiter"];
+// // Change code below this line
+// const planetsLengths = planets.map(planet => planet.length);
+
+// Change code below this line
+
+
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   { title: "Enemy of God", author: "Bernard Cornwell", rating: 8.67 },
+// ];
+
+// const MIN_RATING = 8;
+// const AUTHOR = "Bernard Cornwell";
+// // Change code below this line
+
+// const topRatedBooks = books.filter(book => book.rating >= MIN_RATING).map(book => book.title);
+// const booksByAuthor = books.filter(book => book.author === AUTHOR);
+
+
+// const users = [
+//    {
+//       name: "Moore Hensley",
+//       email: "moorehensley@indexia.com",
+//       eyeColor: "blue",
+//       friends: ["Sharron Pace"],
+//       isActive: false,
+//       balance: 2811,
+//       gender: "male"
+//    },
+//    {
+//       name: "Sharlene Bush",
+//       email: "sharlenebush@tubesys.com",
+//       eyeColor: "blue",
+//       friends: ["Briana Decker", "Sharron Pace"],
+//       isActive: true,
+//       balance: 3821,
+//       gender: "female"
+//    },
+//    {
+//       name: "Ross Vazquez",
+//       email: "rossvazquez@xinware.com",
+//       eyeColor: "green",
+//       friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//       isActive: false,
+//       balance: 3793,
+//       gender: "male"
+//    },
+//    {
+//       name: "Elma Head",
+//       email: "elmahead@omatom.com",
+//       eyeColor: "green",
+//       friends: ["Goldie Gentry", "Aisha Tran"],
+//       isActive: true,
+//       balance: 2278,
+//       gender: "female"
+//    },
+//    {
+//       name: "Carey Barr",
+//       email: "careybarr@nurali.com",
+//       eyeColor: "blue",
+//       friends: ["Jordan Sampson", "Eddie Strong"],
+//       isActive: true,
+//       balance: 3951,
+//       gender: "male"
+//    },
+//    {
+//       name: "Blackburn Dotson",
+//       email: "blackburndotson@furnigeer.com",
+//       eyeColor: "brown",
+//       friends: ["Jacklyn Lucas", "Linda Chapman"],
+//       isActive: false,
+//       balance: 1498,
+//       gender: "male"
+//    },
+//    {
+//       name: "Sheree Anthony",
+//       email: "shereeanthony@kog.com",
+//       eyeColor: "brown",
+//       friends: ["Goldie Gentry", "Briana Decker"],
+//       isActive: true,
+//       balance: 2764,
+//       gender: "female"
+//    }
+// ];
+// // Change code below this line
+// const getUsersWithEyeColor = (users, color) => {
+//    return users.filter(user => user.eyeColor === color).map(user => user.name);
+
+// };
+// // Change code above this line
+// const students = [
+//   { name: "Mango", courses: ["mathematics", "physics"] },
+//   { name: "Poly", courses: ["science", "mathematics"] },
+//   { name: "Kiwi", courses: ["physics", "biology"] },
+// ];
+
+// const allCourses = students.flatMap(student => student.courses);
+//  ["mathematics", "physics", "science", "mathematics", "physics", "biology"];
+
+// const uniqueCourses = allCourses.filter(
+//   (course, index, array) => array.indexOf(course) === index
+// );
