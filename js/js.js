@@ -498,75 +498,261 @@
 
 // players.reduce((totalPlayTime, gamesPlayed) => {return totalPlayTime + gamesPlayed.gamesPlayed }, 0);
 
-const users = [
-   {
-      name: "Moore Hensley",
-      email: "moorehensley@indexia.com",
-      eyeColor: "blue",
-      friends: ["Sharron Pace"],
-      isActive: false,
-      balance: 2811,
-      gender: "male"
-   },
-   {
-      name: "Sharlene Bush",
-      email: "sharlenebush@tubesys.com",
-      eyeColor: "blue",
-      friends: ["Briana Decker", "Sharron Pace"],
-      isActive: true,
-      balance: 3821,
-      gender: "female"
-   },
-   {
-      name: "Ross Vazquez",
-      email: "rossvazquez@xinware.com",
-      eyeColor: "green",
-      friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
-      isActive: false,
-      balance: 3793,
-      gender: "male"
-   },
-   {
-      name: "Elma Head",
-      email: "elmahead@omatom.com",
-      eyeColor: "green",
-      friends: ["Goldie Gentry", "Aisha Tran"],
-      isActive: true,
-      balance: 2278,
-      gender: "female"
-   },
-   {
-      name: "Carey Barr",
-      email: "careybarr@nurali.com",
-      eyeColor: "blue",
-      friends: ["Jordan Sampson", "Eddie Strong"],
-      isActive: true,
-      balance: 3951,
-      gender: "male"
-   },
-   {
-      name: "Blackburn Dotson",
-      email: "blackburndotson@furnigeer.com",
-      eyeColor: "brown",
-      friends: ["Jacklyn Lucas", "Linda Chapman"],
-      isActive: false,
-      balance: 1498,
-      gender: "male"
-   },
-   {
-      name: "Sheree Anthony",
-      email: "shereeanthony@kog.com",
-      eyeColor: "brown",
-      friends: ["Goldie Gentry", "Briana Decker"],
-      isActive: true,
-      balance: 2764,
-      gender: "female"
-   }
-];
+// const users = [
+//    {
+//       name: "Moore Hensley",
+//       email: "moorehensley@indexia.com",
+//       eyeColor: "blue",
+//       friends: ["Sharron Pace"],
+//       isActive: false,
+//       balance: 2811,
+//       gender: "male"
+//    },
+//    {
+//       name: "Sharlene Bush",
+//       email: "sharlenebush@tubesys.com",
+//       eyeColor: "blue",
+//       friends: ["Briana Decker", "Sharron Pace"],
+//       isActive: true,
+//       balance: 3821,
+//       gender: "female"
+//    },
+//    {
+//       name: "Ross Vazquez",
+//       email: "rossvazquez@xinware.com",
+//       eyeColor: "green",
+//       friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//       isActive: false,
+//       balance: 3793,
+//       gender: "male"
+//    },
+//    {
+//       name: "Elma Head",
+//       email: "elmahead@omatom.com",
+//       eyeColor: "green",
+//       friends: ["Goldie Gentry", "Aisha Tran"],
+//       isActive: true,
+//       balance: 2278,
+//       gender: "female"
+//    },
+//    {
+//       name: "Carey Barr",
+//       email: "careybarr@nurali.com",
+//       eyeColor: "blue",
+//       friends: ["Jordan Sampson", "Eddie Strong"],
+//       isActive: true,
+//       balance: 3951,
+//       gender: "male"
+//    },
+//    {
+//       name: "Blackburn Dotson",
+//       email: "blackburndotson@furnigeer.com",
+//       eyeColor: "brown",
+//       friends: ["Jacklyn Lucas", "Linda Chapman"],
+//       isActive: false,
+//       balance: 1498,
+//       gender: "male"
+//    },
+//    {
+//       name: "Sheree Anthony",
+//       email: "shereeanthony@kog.com",
+//       eyeColor: "brown",
+//       friends: ["Goldie Gentry", "Briana Decker"],
+//       isActive: true,
+//       balance: 2764,
+//       gender: "female"
+//    }
+// ];
+
+
+// // Change code below this line
+// const calculateTotalBalance = users => {  users.reduce((total,user) => {return total + user.balance}, 0);
+   
+// };
+// // Change code above this line
+
+// const users = [
+//    {
+//       name: "Moore Hensley",
+//       email: "moorehensley@indexia.com",
+//       eyeColor: "blue",
+//       friends: ["Sharron Pace"],
+//       isActive: false,
+//       balance: 2811,
+//       gender: "male"
+//    },
+//    {
+//       name: "Sharlene Bush",
+//       email: "sharlenebush@tubesys.com",
+//       eyeColor: "blue",
+//       friends: ["Briana Decker", "Sharron Pace"],
+//       isActive: true,
+//       balance: 3821,
+//       gender: "female"
+//    },
+//    {
+//       name: "Ross Vazquez",
+//       email: "rossvazquez@xinware.com",
+//       eyeColor: "green",
+//       friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//       isActive: false,
+//       balance: 3793,
+//       gender: "male"
+//    },
+//    {
+//       name: "Elma Head",
+//       email: "elmahead@omatom.com",
+//       eyeColor: "green",
+//       friends: ["Goldie Gentry", "Aisha Tran"],
+//       isActive: true,
+//       balance: 2278,
+//       gender: "female"
+//    },
+//    {
+//       name: "Carey Barr",
+//       email: "careybarr@nurali.com",
+//       eyeColor: "blue",
+//       friends: ["Jordan Sampson", "Eddie Strong"],
+//       isActive: true,
+//       balance: 3951,
+//       gender: "male"
+//    },
+//    {
+//       name: "Blackburn Dotson",
+//       email: "blackburndotson@furnigeer.com",
+//       eyeColor: "brown",
+//       friends: ["Jacklyn Lucas", "Linda Chapman"],
+//       isActive: false,
+//       balance: 1498,
+//       gender: "male"
+//    },
+//    {
+//       name: "Sheree Anthony",
+//       email: "shereeanthony@kog.com",
+//       eyeColor: "brown",
+//       friends: ["Goldie Gentry", "Briana Decker"],
+//       isActive: true,
+//       balance: 2764,
+//       gender: "female"
+//    }
+// ];
 
 
 // Change code below this line
-const calculateTotalBalance = users => { return users.reduce((total,user) => {total + user.balance}, 0);
+// const calculateTotalBalance = users.reduce((total,user) => {return total + user.balance}, 0);
    
+
+// Change code above this line
+
+// const players = [
+//   { name: "Mango", playtime: 1270, gamesPlayed: 4 },
+//   { name: "Poly", playtime: 469, gamesPlayed: 2 },
+//   { name: "Ajax", playtime: 690, gamesPlayed: 3 },
+//   { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
+// ];
+// // Change code below this line
+
+// const totalAveragePlaytimePerGame = players.reduce((totalPlayTime, playTime) => { return totalPlayTime + playTime.playtime/playTime.gamesPlayed }, 0);
+// const getTotalFriendCount = users => {
+//    return users.reduce((total, friend) =>  total + friend.friends.length , 0);
+   
+// };
+// console.log(getTotalFriendCount(users));
+
+
+
+// const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
+// // Change code below this line
+
+// const ascendingReleaseDates = [...releaseDates].sort((a,b) =>  b - a );
+
+// const descendingReleaseDates = [...releaseDates].sort((a,b) =>  a - b );
+
+const users =
+
+[
+  {
+    name: "Moore Hensley",
+    email: "moorehensley@indexia.com",
+    eyeColor: "blue",
+    friends: ["Sharron Pace"],
+    isActive: false,
+    balance: 2811,
+    gender: "male"
+  },
+  {
+    name: "Sharlene Bush",
+    email: "sharlenebush@tubesys.com",
+    eyeColor: "blue",
+    friends: ["Briana Decker", "Sharron Pace"],
+    isActive: true,
+    balance: 3821,
+    gender: "female"
+  },
+  {
+    name: "Ross Vazquez",
+    email: "rossvazquez@xinware.com",
+    eyeColor: "green",
+    friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+    isActive: false,
+    balance: 3793,
+    gender: "male"
+  },
+  {
+    name: "Elma Head",
+    email: "elmahead@omatom.com",
+    eyeColor: "green",
+    friends: ["Goldie Gentry", "Aisha Tran"],
+    isActive: true,
+    balance: 2278,
+    gender: "female"
+  },
+  {
+    name: "Carey Barr",
+    email: "careybarr@nurali.com",
+    eyeColor: "blue",
+    friends: ["Jordan Sampson", "Eddie Strong", "Adrian Cross"],
+    isActive: true,
+    balance: 3951,
+    gender: "male"
+  },
+  {
+    name: "Blackburn Dotson",
+    email: "blackburndotson@furnigeer.com",
+    eyeColor: "brown",
+    friends: ["Jacklyn Lucas", "Linda Chapman", "Adrian Cross", "Solomon Fokes"],
+    isActive: false,
+    balance: 1498,
+    gender: "male"
+  },
+  {
+    name: "Sheree Anthony",
+    email: "shereeanthony@kog.com",
+    eyeColor: "brown",
+    friends: ["Goldie Gentry", "Briana Decker"],
+    isActive: true,
+    balance: 2764,
+    gender: "female"
+  }
+]
+
+
+// // Change code below this line
+// const getSortedFriends = users => { return users.map(user => user.name).filter((user,index,array) => array.indexOf(user) === index).sort((a,b) => a.localeCompare(b));
+   
+// };
+// // Change code above this line
+
+// // Change code below this line
+// const getSortedFriends = users => { return users.flatMap(user => user.friends).filter((user,index,array) => array.indexOf(user) === index).sort((a,b) => a.localeCompare(b));
+   
+// };
+// // Change code above this line
+// Change code below this line
+const getTotalBalanceByGender = (users, gender) => {
+return users.filter( user => user.gender === gender).reduce((total,user) => total + user.balance, 0)
 };
 // Change code above this line
+
+
+// .reduce((total,user) => total + user.balance),0
