@@ -668,73 +668,73 @@
 
 // const descendingReleaseDates = [...releaseDates].sort((a,b) =>  a - b );
 
-const users =
+// const users =
 
-[
-  {
-    name: "Moore Hensley",
-    email: "moorehensley@indexia.com",
-    eyeColor: "blue",
-    friends: ["Sharron Pace"],
-    isActive: false,
-    balance: 2811,
-    gender: "male"
-  },
-  {
-    name: "Sharlene Bush",
-    email: "sharlenebush@tubesys.com",
-    eyeColor: "blue",
-    friends: ["Briana Decker", "Sharron Pace"],
-    isActive: true,
-    balance: 3821,
-    gender: "female"
-  },
-  {
-    name: "Ross Vazquez",
-    email: "rossvazquez@xinware.com",
-    eyeColor: "green",
-    friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
-    isActive: false,
-    balance: 3793,
-    gender: "male"
-  },
-  {
-    name: "Elma Head",
-    email: "elmahead@omatom.com",
-    eyeColor: "green",
-    friends: ["Goldie Gentry", "Aisha Tran"],
-    isActive: true,
-    balance: 2278,
-    gender: "female"
-  },
-  {
-    name: "Carey Barr",
-    email: "careybarr@nurali.com",
-    eyeColor: "blue",
-    friends: ["Jordan Sampson", "Eddie Strong", "Adrian Cross"],
-    isActive: true,
-    balance: 3951,
-    gender: "male"
-  },
-  {
-    name: "Blackburn Dotson",
-    email: "blackburndotson@furnigeer.com",
-    eyeColor: "brown",
-    friends: ["Jacklyn Lucas", "Linda Chapman", "Adrian Cross", "Solomon Fokes"],
-    isActive: false,
-    balance: 1498,
-    gender: "male"
-  },
-  {
-    name: "Sheree Anthony",
-    email: "shereeanthony@kog.com",
-    eyeColor: "brown",
-    friends: ["Goldie Gentry", "Briana Decker"],
-    isActive: true,
-    balance: 2764,
-    gender: "female"
-  }
-]
+// [
+//   {
+//     name: "Moore Hensley",
+//     email: "moorehensley@indexia.com",
+//     eyeColor: "blue",
+//     friends: ["Sharron Pace"],
+//     isActive: false,
+//     balance: 2811,
+//     gender: "male"
+//   },
+//   {
+//     name: "Sharlene Bush",
+//     email: "sharlenebush@tubesys.com",
+//     eyeColor: "blue",
+//     friends: ["Briana Decker", "Sharron Pace"],
+//     isActive: true,
+//     balance: 3821,
+//     gender: "female"
+//   },
+//   {
+//     name: "Ross Vazquez",
+//     email: "rossvazquez@xinware.com",
+//     eyeColor: "green",
+//     friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//     isActive: false,
+//     balance: 3793,
+//     gender: "male"
+//   },
+//   {
+//     name: "Elma Head",
+//     email: "elmahead@omatom.com",
+//     eyeColor: "green",
+//     friends: ["Goldie Gentry", "Aisha Tran"],
+//     isActive: true,
+//     balance: 2278,
+//     gender: "female"
+//   },
+//   {
+//     name: "Carey Barr",
+//     email: "careybarr@nurali.com",
+//     eyeColor: "blue",
+//     friends: ["Jordan Sampson", "Eddie Strong", "Adrian Cross"],
+//     isActive: true,
+//     balance: 3951,
+//     gender: "male"
+//   },
+//   {
+//     name: "Blackburn Dotson",
+//     email: "blackburndotson@furnigeer.com",
+//     eyeColor: "brown",
+//     friends: ["Jacklyn Lucas", "Linda Chapman", "Adrian Cross", "Solomon Fokes"],
+//     isActive: false,
+//     balance: 1498,
+//     gender: "male"
+//   },
+//   {
+//     name: "Sheree Anthony",
+//     email: "shereeanthony@kog.com",
+//     eyeColor: "brown",
+//     friends: ["Goldie Gentry", "Briana Decker"],
+//     isActive: true,
+//     balance: 2764,
+//     gender: "female"
+//   }
+// ]
 
 
 // // Change code below this line
@@ -749,10 +749,23 @@ const users =
 // };
 // // Change code above this line
 // Change code below this line
-const getTotalBalanceByGender = (users, gender) => {
-return users.filter( user => user.gender === gender).reduce((total,user) => total + user.balance, 0)
-};
+// const getTotalBalanceByGender = (users, gender) => {
+// return users.filter( user => user.gender === gender).reduce((total,user) => total + user.balance, 0)
+// };
 // Change code above this line
 
 
 // .reduce((total,user) => total + user.balance),0
+
+
+// function positiveSum(arr) {
+//   return arr.filter(value => value >= 0).reduce((previousValue, number) => { return previousValue + number }, 0);
+// }
+
+
+// function findAverage(array) {
+//   if (array.length > 0) {
+//     return ((array.reduce((a, b) => { return a + b }, 0)) / array.length);
+//   }
+//   return 0;
+// }
