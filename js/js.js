@@ -9,13 +9,13 @@
 //       console.log(array[i].length, array[i]);
 //       console.log(longestWord);
 //       indexId = i;
-    
+
 //       longestWord = array[indexId];
 //       console.log(longestWord);
 //     }
-    
+
 //     // Change code above this line
-    
+
 //   }
 //   return longestWord;
 // }
@@ -53,9 +53,9 @@
 //      array3.push(array1[i]);
 //      console.log(array1[i]);
 //   }
-   
+
 //  }
-   
+
 // return array3;
 
 //  // Change code above this line
@@ -134,7 +134,6 @@
 // const lastTag = apartment.tags[tags.length - 1];
 // // Change code above this line
 
-
 // consolelog(lastTag);
 
 // const apartment = {
@@ -211,7 +210,6 @@
 //       return null;
 //    }
 
-
 //   // Change code above this line
 // }
 
@@ -279,7 +277,7 @@
 //          if (this.potions[i].name === potionName) {
 //             console.log(i);
 //            return this.potions.splice(i, 1);
-            
+
 //          }
 //       }
 //       return `Potion ${potionName} is not in inventory!`;
@@ -370,10 +368,9 @@
 //   numbers.forEach(function (number,index) {
 //     if (number > value) {
 //       filteredNumbers.push(number);
-      
+
 //     }
 //   })
-  
 
 //   // for (let i = 0; i < numbers.length; i += 1) {
 //   //   if (numbers[i] > value) {
@@ -385,13 +382,12 @@
 //   return filteredNumbers;
 // }
 
-
 // // Change code below this line
 // function calculateTotalPrice(orderedItems) {
 //   let totalPrice = 0;
 
 // orderedItems.forEach( (item) => { totalPrice += item;});
-  
+
 // return totalPrice;
 // }
 // // Change code above this line
@@ -426,14 +422,12 @@
 //    })
 //    return newArray;
 
-
 // }
 // const planets = ["Earth", "Mars", "Venus", "Jupiter"];
 // // Change code below this line
 // const planetsLengths = planets.map(planet => planet.length);
 
 // Change code below this line
-
 
 // const books = [
 //   {
@@ -462,8 +456,6 @@
 // const topRatedBooks = books.filter(book => book.rating >= MIN_RATING).map(book => book.title);
 // const booksByAuthor = books.filter(book => book.author === AUTHOR);
 
-
-
 // // Change code below this line
 // const getUsersWithEyeColor = (users, color) => {
 //    return users.filter(user => user.eyeColor === color).map(user => user.name);
@@ -490,11 +482,9 @@
 // ];
 // // Change code below this line
 
-
 // // const totalAveragePlaytimePerGame = players.reduce((pTime,time) => {pTime = time.playtime},0)/players.reduce((qty,qtyP) => {qty = qtyP.playtime},0) ;
 
 // const totalAveragePlaytimePerGame = players.reduce((totalPlayTime, playTime) => { return totalPlayTime + playTime.playtime/playTime.gamesPlayed }, 0);
-
 
 // players.reduce((totalPlayTime, gamesPlayed) => {return totalPlayTime + gamesPlayed.gamesPlayed }, 0);
 
@@ -564,10 +554,9 @@
 //    }
 // ];
 
-
 // // Change code below this line
 // const calculateTotalBalance = users => {  users.reduce((total,user) => {return total + user.balance}, 0);
-   
+
 // };
 // // Change code above this line
 
@@ -637,10 +626,8 @@
 //    }
 // ];
 
-
 // Change code below this line
 // const calculateTotalBalance = users.reduce((total,user) => {return total + user.balance}, 0);
-   
 
 // Change code above this line
 
@@ -655,11 +642,9 @@
 // const totalAveragePlaytimePerGame = players.reduce((totalPlayTime, playTime) => { return totalPlayTime + playTime.playtime/playTime.gamesPlayed }, 0);
 // const getTotalFriendCount = users => {
 //    return users.reduce((total, friend) =>  total + friend.friends.length , 0);
-   
+
 // };
 // console.log(getTotalFriendCount(users));
-
-
 
 // const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
 // // Change code below this line
@@ -736,16 +721,15 @@
 //   }
 // ]
 
-
 // // Change code below this line
 // const getSortedFriends = users => { return users.map(user => user.name).filter((user,index,array) => array.indexOf(user) === index).sort((a,b) => a.localeCompare(b));
-   
+
 // };
 // // Change code above this line
 
 // // Change code below this line
 // const getSortedFriends = users => { return users.flatMap(user => user.friends).filter((user,index,array) => array.indexOf(user) === index).sort((a,b) => a.localeCompare(b));
-   
+
 // };
 // // Change code above this line
 // Change code below this line
@@ -754,14 +738,11 @@
 // };
 // Change code above this line
 
-
 // .reduce((total,user) => total + user.balance),0
-
 
 // function positiveSum(arr) {
 //   return arr.filter(value => value >= 0).reduce((previousValue, number) => { return previousValue + number }, 0);
 // }
-
 
 // function findAverage(array) {
 //   if (array.length > 0) {
@@ -780,7 +761,6 @@
 //       return "Overweight";
 //    } else { return "Obese"; }
 // }
-
 
 // Write function bmi that calculates body mass index (bmi = weight / height2).
 
@@ -815,9 +795,16 @@
 //    return array.reduce((a, b) => { return a + b }, 0);
 // }
 
-
 // If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
 // Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).
 
 // Note: If the number is a multiple of both 3 and 5, only count it once.
+
+String.prototype.toJadenCase = function (str) {
+  const result = [];
+   for (i = 0; i < str.split(' ').length; i += 1) {
+      result.push (str.split(' ')[i].slice(0,1).toUpperCase() + str.split(' ')[i].slice(1,str.split(' ')[i].length))
+   };
+   return result.join(' ');
+};
