@@ -769,3 +769,55 @@
 //   }
 //   return 0;
 // }
+
+// function bmi(weight, height) {
+//    let bmiValue = weight / (height * height);
+//    if (bmiValue <= 18.5) {
+//       return "Underweight";
+//    } else if (bmiValue <= 25 && bmiValue > 18.5) {
+//       return "Normal";
+//    } else if (bmiValue <= 30 && bmiValue > 25) {
+//       return "Overweight";
+//    } else { return "Obese"; }
+// }
+
+
+// Write function bmi that calculates body mass index (bmi = weight / height2).
+
+// if bmi <= 18.5 return "Underweight"
+
+// if bmi <= 25.0 return "Normal"
+
+// if bmi <= 30.0 return "Overweight"
+
+// if bmi > 30 return "Obese"
+
+// const countSheep = function (num) {
+//    const result = [];
+//    if (num) { for (let i = 1; i <= num; i += 1) { result.push(`${i} sheep...`); } }
+
+//    return result.join('');
+// }
+// const binaryArrayToNumber = arr => {
+//    return parseInt(arr.join(''),2);
+//   // your code
+// };
+
+// function solution(number){
+//    const array = [];
+//    for (let i = 1; i < number; i += 1) {
+//       if (i % 3 === 0 || i % 5 === 0) {
+//          array.push(i);
+//       }
+//    }
+//    console.log(array);
+
+//    return array.reduce((a, b) => { return a + b }, 0);
+// }
+
+
+// If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+// Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).
+
+// Note: If the number is a multiple of both 3 and 5, only count it once.
